@@ -15,7 +15,4 @@ public interface FootballApi {
     Single<List<Competition>> getCompetations();
 
 
-    @GET("competitions/{id}/teams")
-    Single<List<Integer>> getTeams(@Path("id") int id);
-
 }
